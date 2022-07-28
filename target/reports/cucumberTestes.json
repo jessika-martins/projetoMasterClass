@@ -1,0 +1,88 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Cadastro de usuário  com sucesso",
+        "description": "",
+        "id": "cadastro-de-usuário;cadastro-de-usuário--com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10488387300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que estou no cadastro de usuários",
+            "match": {
+              "location": "CadastroUsuarioSteps.acessaCadastroUsuarios()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 628542800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencho todos os campos obrigatórios",
+            "match": {
+              "location": "CadastroUsuarioSteps.preencho_todos_os_campos_obrigatorios()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 133924100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico em cadastrar usuário",
+            "match": {
+              "location": "CadastroUsuarioSteps.clico_em_cadastrar_usuario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 84121500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "vejo mensagem de cadastro com sucesso",
+            "match": {
+              "location": "CadastroUsuarioSteps.vejo_mensagem_de_cadastro_com_sucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@cadastro-usuario-sucesso"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de usuário",
+    "description": "Eu como visitante do sistema\r\nQuero se cadastrar\r\nPara fazer uma compra",
+    "id": "cadastro-de-usuário",
+    "keyword": "Funcionalidade",
+    "uri": "cadastro.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@cadastro-usuario"
+      }
+    ]
+  }
+]
